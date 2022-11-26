@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  web:
+<<<<<<< HEAD
+    image: ${DOCKER_USER_ID}/ossprac
+    build: .
+    ports:
+      - "80:80"
+=======
+    image: jw0293/ossprac:latest
+    build: .
+    ports:
+      - "80:80"
+>>>>>>> 7cd8030c68df786b9f90d50c0848d3ed1920dda9
